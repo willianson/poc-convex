@@ -9,7 +9,7 @@ logic while Convex manages the backend infrastructure.
 **React + TypeScript + Vite**
 
 ### Visit
-http://poc-convex-backend-dev.vercel.app
+http://poc-convex-backend.vercel.app
 
 ## Run
 To keep the convex structure in sync during development.
