@@ -18,7 +18,7 @@ function Tasks(props: TasksProps){
           </div>
         : 
           <ul>
-            {data.map(({ _id, text, isCompleted}) => {
+            {data.map(({ _id, text}) => {
               return (
                 <li key={_id}>
                   <label>
