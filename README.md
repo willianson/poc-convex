@@ -10,3 +10,14 @@ logic while Convex manages the backend infrastructure.
 
 ### Visit
 http://poc-convex-backend-dev.vercel.app
+
+## Run
+To keep the convex structure in sync during development.
+  ```bash
+  $ npx convex dev
+  ```
+
+To start the localhost server:
+  ```bash
+  $ yarn dev
+  ```
