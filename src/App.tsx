@@ -11,7 +11,7 @@ import Loading from './Loading';
 
 function App() {
   const [query, setQuery] = useState('')
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const tasks = useQuery(api.tasks.getTasks, { query });
   const createTask = useMutation(api.tasks.createTask);
   const deleteTask = useMutation(api.tasks.deleteTask);
