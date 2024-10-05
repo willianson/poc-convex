@@ -22,7 +22,7 @@ function Tasks(props: TasksProps){
               return (
                 <li key={_id}>
                   <label>
-                    <input type="checkbox" checked={isCompleted} />
+                    {/* <input type="checkbox" checked={isCompleted} /> */}
                     <span>{text}</span>
                   </label>
                   <button onClick={() => props.onDelete(_id)}>X</button>
